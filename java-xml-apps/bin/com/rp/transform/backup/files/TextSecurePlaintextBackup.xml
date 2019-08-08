@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!-- File Created By TextSecure -->
+<smses count="2829">
+	<sms protocol="0" address="7416368467" date="1389064723382" type="2"
+		subject="null"
+		body="Vivek Kumar Singh Tanishka Building, flat no -307, plot no -17, sector -27, Nigdi pradhikaran, Near Big india group. Pin -  411044"
+		toa="null" sc_toa="null" service_center="null" read="1" status="0"
+		locked="0" />
+	<sms protocol="0" address="+919162458605" date="1391391255528"
+		type="2" subject="null"
+		body="Nice quote:   &quot;Satisfy the person who expect a smile from you...&quot;  and    &quot;Surprise the person who never expected anything from u...&quot;  Good Morning Didi"
+		toa="null" sc_toa="null" service_center="null" read="1" status="0"
+		locked="0" />
+</smses>

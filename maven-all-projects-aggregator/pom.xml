@@ -1,0 +1,44 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.rpsoft.maven-projects</groupId>
+	<artifactId>maven-all-projects-aggregator</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
+	<name>maven-all-projects-aggregator</name>
+	<url>http://maven.apache.org</url>
+
+	<modules>
+		<!-- Parent projects -->
+		<module>../maven-common-build-parent</module>
+
+		<!-- Projects -->
+		<module>../core-java-utilities</module>
+		<module>../java-awt-robot</module>
+		<module>../java-data-searching-sorting</module>
+		<module>../java-interview-questions</module>
+		<module>../java-lang-regex</module>
+		<module>../java-lang-string</module>
+		<module>../java-sorting-apps</module>
+		<module>../java-trials</module>
+		<module>../java-util-collections</module>
+		<module>../java-xml-apps</module>
+	</modules>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<sonar.host.url>http://localhost:9000/</sonar.host.url>
+		<sonar.exclusions></sonar.exclusions>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>3.8.1</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+</project>

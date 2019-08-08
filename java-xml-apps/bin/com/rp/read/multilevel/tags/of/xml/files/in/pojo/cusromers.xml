@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<customers>
+	<customer id="100">
+		<age>25</age>
+		<name>vivek</name>
+	</customer>
+	<customer id="101">
+		<age>29</age>
+		<name>Ravi Raj</name>
+	</customer>
+	<customer id="102">
+		<age>27</age>
+		<name>Aryan</name>
+	</customer>
+</customers>
